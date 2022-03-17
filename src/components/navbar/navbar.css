@@ -1,0 +1,161 @@
+.mts__navbar {
+  position: fixed;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+
+  padding: 2rem 6rem;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+
+  width: 100%;
+}
+
+.mts__navbar-links {
+  flex: 1;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+
+.mts__navbar-links_logo {
+  flex: 0.5;
+  margin-right: 2rem;
+}
+
+.mts__navbar-links_logo img {
+  width: 62px;
+  height: 16px;
+
+  cursor: pointer;
+}
+.logo__tag {
+  cursor: pointer;
+
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 1px;
+  /* line-height: 25px; */
+
+  outline: none;
+}
+
+.mts__navbar-links_container {
+  /* flex: 2; */
+  display: flex;
+  flex-direction: row;
+}
+
+.mts__navbar-links_container p,
+.mts__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  cursor: pointer;
+}
+
+.mts__navbar-links_container p:hover,
+.mts__navbar-menu_container p:hover {
+  color: #ff4820;
+
+  transition: all 1s ease-in;
+}
+
+.mts__navbar-contact .button,
+.mts__navbar-menu_container .button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.mts__navbar-menu {
+  margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+
+.mts__navbar-menu svg {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.mts__navbar-menu_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: start;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.mts__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.mts__navbar-menu_container-links-contact {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .mts__navbar-links_container {
+    display: none;
+  }
+  .mts__navbar-menu {
+    display: flex;
+  }
+
+  .mts__navbar-links_container p,
+  .mts__navbar-menu_container p {
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 700px) {
+    .mts__navbar-links_logo span {
+      font-size: 24px;
+      font-weight: 800;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .mts__navbar {
+      padding: 2rem;
+    }
+    .mts__navbar-contact {
+      display: none;
+    }
+
+    .mts__navbar-menu_container {
+      top: 20px;
+    }
+    .mts__navbar-menu_container-links-contact {
+      display: block;
+    }
+  }
+}

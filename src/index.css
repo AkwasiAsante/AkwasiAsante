@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  /* --gradient-text: linear-gradient(89.97deg, #5ac994 1.84%, #c0f7b7 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #5ac994 -13.86%, #c0f7b7 99.55%); */
+
+  --gradient-text: linear-gradient(89.97deg, #fff 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+
+  /* --color-bg: #fff; */
+  --color-bg: #141b29;
+  --color-footer: #124143;
+  --color-blog: #15265c;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+
+  --color-first: #5ac994;
+  --color-first-dark: #23004d;
+  --color-first-light: #a49eac;
+  --color-first-lighten: #f2f2f2;
+
+  --big-font-size: 1.5rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+}

@@ -1,0 +1,59 @@
+.mts__skills-card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+
+  background: rgba(38, 129, 156, 0.2);
+  box-shadow: 0 8px 20px rgba(35, 0, 77, 0.2);
+
+  cursor: pointer;
+
+  transition: all 1s ease-in-out;
+}
+.mts__skills-card:hover {
+  transform: scale(1.2);
+}
+.mts__skills-card img {
+  flex: 0.3;
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem;
+}
+
+.mts__skills-card_content {
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+}
+.mts__skills-card_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mts__skills-card_title p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  margin-bottom: 2rem;
+}
+
+.mts__skills-progress {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #fff;
+
+  border-radius: 15px;
+}
+
+.mts__skils-progress_bar {
+  height: 100%;
+
+  border-radius: 15px;
+}

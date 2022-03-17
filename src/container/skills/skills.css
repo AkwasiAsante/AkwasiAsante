@@ -1,0 +1,111 @@
+.mts__skills {
+  /* display: flex; */
+  width: 100%;
+}
+.mts__skills h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+.mts__skills-content {
+  display: flex;
+}
+
+.mts__skills-content_left {
+  flex: 1;
+  margin-right: 2rem;
+}
+.mts__skills-content_left img {
+  width: 50%;
+  height: 50%;
+
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.mts__skills-content_left p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  margin-bottom: 2rem;
+}
+.mts__skills-content_right {
+  flex: 1;
+  margin-left: 1.5rem;
+}
+
+.mts__skills-content_left img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .mts__skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .mts__skills-content_left {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .mts__skills-content_left img {
+    width: 30%;
+    height: 30%;
+    margin-left: 1rem;
+  }
+
+  .mts__skills-content_right {
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mts__skills-content_left {
+    display: flex;
+    flex-direction: column;
+  }
+  .mts__skills-content_left img {
+    width: 30%;
+    height: 30%;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+  }
+}
