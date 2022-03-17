@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/AkwasiAsante/static/css/main.c0935a82.css",
+    "main.js": "/AkwasiAsante/static/js/main.37d85671.js",
+    "static/media/ai.png": "/AkwasiAsante/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/Login 1.png": "/AkwasiAsante/static/media/Login 1.13f4839850ca5c22aa13.png",
+    "static/media/resume.pdf": "/AkwasiAsante/static/media/resume.198b0957c5e17e542638.pdf",
+    "static/media/major.png": "/AkwasiAsante/static/media/major.fdb5c909acdbfe3ab3a2.png",
+    "static/media/mts.PNG": "/AkwasiAsante/static/media/mts.79127ed9d6d4a3891213.PNG",
+    "static/media/mts2.PNG": "/AkwasiAsante/static/media/mts2.f8016d932b3f55597d1d.PNG",
+    "static/media/aymmts.PNG": "/AkwasiAsante/static/media/aymmts.e08ff9bc15a4f6a16e30.PNG",
+    "static/media/img-login.svg": "/AkwasiAsante/static/media/img-login.63f613040566cdd65f679fc0a4312e0c.svg",
+    "static/media/people.png": "/AkwasiAsante/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/reactjs.svg": "/AkwasiAsante/static/media/reactjs.58547e4806b3d64ef7f20e9989c574d2.svg",
+    "static/media/csharp.svg": "/AkwasiAsante/static/media/csharp.4560a3d0d7d56a6e9d8398b42e352013.svg",
+    "static/media/vbnet.svg": "/AkwasiAsante/static/media/vbnet.4bbeed52c5c164412fce072f8243c909.svg",
+    "static/media/mts.svg": "/AkwasiAsante/static/media/mts.88f621462c1ef7635ecf0b767f11805a.svg",
+    "static/media/globe.svg": "/AkwasiAsante/static/media/globe.fa47d982c16e799a74fa192351137a92.svg",
+    "static/media/js.svg": "/AkwasiAsante/static/media/js.ed44388cc09b43b75dd3e9920a43eabf.svg",
+    "static/media/mobileIcon.svg": "/AkwasiAsante/static/media/mobileIcon.17cd04f1804a1b2daeb5947742410ab1.svg",
+    "static/media/websiteIcon.svg": "/AkwasiAsante/static/media/websiteIcon.549318f52968d52bca0cfae21b3262be.svg",
+    "static/media/software.svg": "/AkwasiAsante/static/media/software.5069fa042eed188bd055247734aba7c4.svg",
+    "static/media/css.svg": "/AkwasiAsante/static/media/css.fe7b07e1a68afeb711df1885b0ec1d28.svg",
+    "index.html": "/AkwasiAsante/index.html",
+    "static/media/iphone.svg": "/AkwasiAsante/static/media/iphone.65349739d11ae53a4c214322e169ff65.svg",
+    "static/media/html5.svg": "/AkwasiAsante/static/media/html5.84c6adac417775a66b5529f1ae8d4572.svg",
+    "main.c0935a82.css.map": "/AkwasiAsante/static/css/main.c0935a82.css.map",
+    "main.37d85671.js.map": "/AkwasiAsante/static/js/main.37d85671.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0935a82.css",
+    "static/js/main.37d85671.js"
+  ]
+}
